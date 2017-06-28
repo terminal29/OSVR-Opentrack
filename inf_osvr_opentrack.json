@@ -1,0 +1,17 @@
+{
+  "deviceVendor": "Opentrack",
+  "deviceName": "OpenTracker",
+  "author": "InfiniteLlamas",
+  "version": "0.1a",
+  "lastModified": "2017-06-28T00:00:00.000Z",
+  "interfaces": {
+    "tracker": {
+      "count": 1,
+      "position": true,
+      "orientation": true
+    }
+  },
+  "semantic": {
+    "tracker": "tracker/0"
+  }
+}
