@@ -1,6 +1,8 @@
 # OSVR-Opentrack
 Opentrack plugin for OSVR
 
+* Using Opentrack UDP Receiver code by [r57zone](https://github.com/r57zone/OpenTrack-UDP-receive)
+
 # How to use
 1. Add the following to your OSVR Server config
 ```
