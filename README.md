@@ -1,6 +1,8 @@
 # OSVR-Opentrack
 Opentrack plugin for OSVR
 
+* Using Opentrack UDP Receiver code by [r57zone](https://github.com/r57zone/OpenTrack-UDP-receive)
+
 # How to use
 1. Add the following to your OSVR Server config
 ```
@@ -10,9 +12,9 @@ Opentrack plugin for OSVR
 	}
 	...
 	],
-	"aliases": {
-		"/me/head": "/inf_osvr_opentrack/OpenTracker/semantic/tracker"
-	}
+"aliases": {
+	"/me/head": "/inf_osvr_opentrack/OpenTracker/semantic/tracker"
+}
 ```
 
 2. Open Opentrack and set "Output" to "UDP over network" and in the settings window, set the IP to 127.0.0.1 (or the ip of the pc that has the osvr server running) and port to 4242.
