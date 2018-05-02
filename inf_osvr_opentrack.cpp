@@ -147,8 +147,8 @@ namespace {
 			
 			OSVR_Vec3 pos;
 			osvrVec3SetX(&pos, tracker_data.x);
-			osvrVec3SetX(&pos, tracker_data.x);
-			osvrVec3SetX(&pos, tracker_data.x);
+			osvrVec3SetY(&pos, tracker_data.y);
+			osvrVec3SetZ(&pos, tracker_data.z);
 
 			OSVR_Quaternion rot = ypr_to_quat(tracker_data.pitch * (M_PI/180), tracker_data.roll * (M_PI / 180), tracker_data.yaw * (M_PI / 180));
 
